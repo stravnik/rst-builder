@@ -25,7 +25,7 @@ class RSTMaker():
         result = ".. contents::"
 
         if name is not None:
-            result += name
+            result += f" {name}"
 
         if depth_level is not None:
             result += f"\n\t:depth: {depth_level}"
